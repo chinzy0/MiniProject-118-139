@@ -105,7 +105,6 @@ class _Book2pageState extends State<Book2page> {
   Widget buildSurnameInput() {
     return TextFormField(
       controller: _surnamebook,
-      keyboardType: TextInputType.phone,
       decoration: const InputDecoration(
         icon: const Icon(Icons.person),
         hintText: 'นามสกุล',

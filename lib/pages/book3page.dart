@@ -178,7 +178,6 @@ class _Book3pageState extends State<Book3page> {
   Widget buildlDInput() {
     return TextFormField(
       controller: _ID,
-      keyboardType: TextInputType.phone,
       decoration: const InputDecoration(
         icon: const Icon(Icons.add_card),
         hintText: 'บัตรประชาชน',

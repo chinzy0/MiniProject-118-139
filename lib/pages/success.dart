@@ -24,8 +24,12 @@ class _SuccessState extends State<Success> {
         child: Center(
           child: Column(
             children: [
+              SizedBox(
+                height: 300,
+              ),
               Text(
                 'Thank you for booking.',
+                textAlign: TextAlign.center,
                 style: TextStyle(
                   color: Colors.white,
                   fontSize: 40,
